@@ -53,25 +53,35 @@ table {
 
 
 #sidebar{
+	float: right;
     color: #ffffff;
     background: rgba(20,20,20, 0.5);
     width: 250px;
-    height: 360px;
-    position:fixed;
-    top: 80px;
-    left:80%;
+    height: 470px;
+    position: relative;
+    top: 50px;
 }
 #form_container{
-    margin: 20px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
 }
 
-#topbar{
+#logo{
+	margin-top: 20px;
+	height: 70px;
+	background-image: url("../img/logo.png");
+	background-size: 99px 70px;
+	 background-repeat: no-repeat;
+}
+
+/*#topbar{
+	float: right;
     color: #ffffff;
-    width: 100px;
+    width: 90px;
+    height: 70px;
+    background:  #ff0000;
     background-image: url("../img/logo.png");
     background-size: 99px 70px;
     height: 70px;
-    position:fixed;
+    position:relative;
     top:10px;
-    left: 85%;
-}
+}*/
